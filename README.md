@@ -1,1 +1,3 @@
-# Tumor_detection
+# Tumor Area Prediction in Brain MRI
+
+This repository contains code for a deep learning model that predicts the tumor area in brain MRI images. The model is trained using a U-Net architecture and the Dice coefficient loss function. The dataset used for training and evaluation consists of brain MRI images with corresponding tumor area annotations(link : https://drive.google.com/file/d/1YiU8rFyePAHl6B_xyXCuq0XbOlJ3fkjv/view?usp=share_link). The model achieves high accuracy and performance, as measured by the Dice coefficient, intersection over union (IoU), and other evaluation metrics. To use the model, clone the repository and install the required dependencies. Prepare your own dataset or obtain one from a reliable source. Once trained, the model can be used to make predictions on new brain MRI images. Detailed instructions and examples are provided in the repository. 
